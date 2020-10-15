@@ -1,5 +1,5 @@
 # RQDA
-As RQDA package has been removed from CRAN repository and you cannot use with it with the new R version, this repository is intended to offer the necessary dependencies (packages and softwares) to those who still wants to use RQDA in R. Following the instructions below, you can manually install RQDA in your R 3.6.3 (2020-02-29) and use it like before.
+As RQDA package has been removed from CRAN repository and you cannot use it with the new R version, this repository is intended to offer the necessary dependencies (packages and softwares) to those who still wants to use RQDA in R. Following the instructions below, you can manually install RQDA in your R 3.6.3 (2020-02-29) and use it like before.
 
 # Installing RQDA (Windows) 
 1. Check R version: R version 3.6.3 (2020-02-29); RStudio version doesn't matter; You can adjust R from "Tools/Global Options" in RStudio setting if you have more than two R version in one computer. 
