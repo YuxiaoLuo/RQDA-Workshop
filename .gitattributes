@@ -1,0 +1,2 @@
+R-3.6.3-win.exe filter=lfs diff=lfs merge=lfs -text
+Prerequisites/R-3.6.3-win.exe filter=lfs diff=lfs merge=lfs -text
