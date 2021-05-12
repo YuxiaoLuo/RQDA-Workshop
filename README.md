@@ -9,9 +9,9 @@ It was first taught at CUNY GC by Yuxiao Luo in the Fall of 2020 as a two hour o
 
 Abstract:
 
-> In this hands-on workshop, we will learn how to get started with qualitative data analysis in R using RQDA package. No prior R knowledge is required since RQDA has a  
+> In this hands-on workshop, we will learn how to get started with qualitative data analysis in R using RQDA package. No prior R knowledge is required since RQDA has a 
 > graphical user interface and can be used with mouse click. However, we highly recommend you learn the basics of R so you can use the functions/commands offered in the 
-> package, which can improve your efficiency of data analysis. You can take our online Introduction to R workshop (https://github.com/GC-DRI/R). This workshop will be held
+> package, which can improve your efficiency of data analysis. You can take our online Introduction to R workshop (https://github.com/GC-DRI/R). This workshop will be held 
 > online with Zoom.
 
 ## Requirements
@@ -20,11 +20,11 @@ Abstract:
 - It would benefit students if they came to this workshop with some basic notions of how RStudio works. Any 5-10 minute long tutorial on Youtube should be enough for that, whoever is leading the workshop should give them the link.
 - RQDA installation becomes a little complicated after R 4.0.0 was released, so a complete installation instruciton is drafted to help walk through the process. Do not let that scare you, it's free and useful after all.
 
-# Installation Instruction
+## Installation Instruction
 As RQDA package has been removed from CRAN repository and you cannot use it with the new R version, this repository is intended to offer the necessary dependencies (packages and softwares) to those who still wants to use RQDA in R. Following the instructions below, you can manually install RQDA in your **R 3.6.3 (2020-02-29)** and use it like before.
 Please click [RQDA official website](https://rqda.r-forge.r-project.org/) for more details.
 
-## Installing RQDA (Windows) 
+### Installing RQDA (Windows) 
 1. Check R version: **R version 3.6.3 (2020-02-29)**; RStudio version doesn't matter; You can change the R version from "Tools/Global Options" in RStudio setting if you have more than two R version in one computer. 
 2. Install [**Rtools35**](https://cran.r-project.org/bin/windows/Rtools/history.html) and don't install the newest **Rtools40**.
 	After installing Rtools35, run the command below: `writeLines('PATH="${RTOOLS35_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron`
@@ -32,14 +32,17 @@ Please click [RQDA official website](https://rqda.r-forge.r-project.org/) for mo
 4. The following 3 packages can be downloaded from CRAN directly: `install.packages(c("RGtk2", “cairoDevice", “DBI”))`.
 5. The following 4 packages were delisted from CRAN, please download from the uploaded files above and copy-paste the 4 folders to your personal R library (use command `.libPaths()` in Rstudio console to see the library location, ex., `C:\Users\Henry\Documents\R\win-library\3.6`). The four packages are: a.`gWidgets`; b.`gWidgetsRGtk2`; c.`RQDA`; d.`RSQLite`.
 
-## Installing RQDA (Mac)
+### Installing RQDA (Mac)
 1. Check R version: **R version 3.6.3 (2020-02-29)**; RStudio version doesn't matter;  You can change the R version from "Tools/Global Options" in RStudio setting if you have more than two R version in one computer. 
 3. **Rtools** is only for Windows, Mac doesn’t need it. 
 4. Go to SourceForge.net to download GTK+ for Mac osx, use the [link](https://sourceforge.net/projects/gtk-osx/)
 5. The following 3 packages can be downloaded from CRAN directly:  `install.packages(c("RGtk2", “cairoDevice", “DBI”))`
 6. The following 4 packages were delisted from CRAN, please download from the uploaded files above and copy-paste the 4 folders to your personal R library (Use command `.libPaths()` in Rstudio console to see the library location, i.e. `desktop/Macintosh HD/Library/Frameworks/R.framework/Resources/library`). The four packages are: a.`gWidgets`; b.`gWidgetsRGtk2`; c.`RQDA`; d.`RSQLite`.
 
-## Summary: 
-RQDA package dependencies: [DBI](https://cran.r-project.org/web/packages/DBI/index.html); [RSQLite](https://cran.r-project.org/web/packages/RSQLite/index.html) doesn’t support R 4.0+; [gWidgets](https://cran.r-project.org/web/packages/gWidgets/index.html) delisted 2019; [gWidgetsRGtk2](https://cran.r-project.org/web/packages/gWidgetsRGtk2/index.html) delisted 2019. 
+### RQDA package dependencies
+- [DBI](https://cran.r-project.org/web/packages/DBI/index.html)
+- [RSQLite](https://cran.r-project.org/web/packages/RSQLite/index.html) doesn’t support R 4.0+ Version
+- [gWidgets](https://cran.r-project.org/web/packages/gWidgets/index.html) delisted from [CRAN](https://cran.r-project.org/) in 2019
+- [gWidgetsRGtk2](https://cran.r-project.org/web/packages/gWidgetsRGtk2/index.html) delisted from [CRAN](https://cran.r-project.org/) in  2019. 
   
   
