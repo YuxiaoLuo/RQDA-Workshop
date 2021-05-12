@@ -35,14 +35,14 @@ Please click [RQDA official website](https://rqda.r-forge.r-project.org/) for mo
 ### Installing RQDA (Mac)
 1. Check R version: **R version 3.6.3 (2020-02-29)**; RStudio version doesn't matter;  You can change the R version from "Tools/Global Options" in RStudio setting if you have more than two R version in one computer. 
 3. **Rtools** is only for Windows, Mac doesn’t need it. 
-4. Go to SourceForge.net to download GTK+ for Mac osx, use the [link](https://sourceforge.net/projects/gtk-osx/)
-5. The following 3 packages can be downloaded from CRAN directly:  `install.packages(c("RGtk2", “cairoDevice", “DBI”))`
+4. Go to SourceForge.net to download GTK+ for Mac osx, use the [link](https://sourceforge.net/projects/gtk-osx/).
+5. The following 3 packages can be downloaded from CRAN directly:  `install.packages(c("RGtk2", “cairoDevice", “DBI”))`.
 6. The following 4 packages were delisted from CRAN, please download from the uploaded files above and copy-paste the 4 folders to your personal R library (Use command `.libPaths()` in Rstudio console to see the library location, i.e. `desktop/Macintosh HD/Library/Frameworks/R.framework/Resources/library`). The four packages are: a.`gWidgets`; b.`gWidgetsRGtk2`; c.`RQDA`; d.`RSQLite`.
 
 ### RQDA package dependencies
 - [DBI](https://cran.r-project.org/web/packages/DBI/index.html)
 - [RSQLite](https://cran.r-project.org/web/packages/RSQLite/index.html) doesn’t support R 4.0+ Version
 - [gWidgets](https://cran.r-project.org/web/packages/gWidgets/index.html) delisted from [CRAN](https://cran.r-project.org/) in 2019
-- [gWidgetsRGtk2](https://cran.r-project.org/web/packages/gWidgetsRGtk2/index.html) delisted from [CRAN](https://cran.r-project.org/) in  2019. 
+- [gWidgetsRGtk2](https://cran.r-project.org/web/packages/gWidgetsRGtk2/index.html) delisted from [CRAN](https://cran.r-project.org/) in  2019
   
   
