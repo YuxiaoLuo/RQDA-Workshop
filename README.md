@@ -21,7 +21,7 @@ Abstract:
 - RQDA installation becomes a little complicated after R 4.0.0 was released, so a complete installation instruciton is drafted to help walk through the process. Do not let that scare you, it's free and useful after all.
 
 ## Installation Instruction
-As RQDA package has been removed from CRAN repository and you cannot use it with the new R version, this repository is intended to offer the necessary dependencies (packages and softwares) to those who still wants to use RQDA in R. Following the instructions below, you can manually install RQDA in your **R 3.6.3 (2020-02-29)** and use it like before.
+As RQDA package has been removed from [CRAN repository](https://cran.r-project.org/) and you cannot use it with the new R version, this repository is intended to offer the necessary dependencies (packages and softwares) to those who still wants to use RQDA in R. Following the instructions below, you can manually install RQDA in your **R 3.6.3 (2020-02-29)** and use it like before.
 Please click [RQDA official website](https://rqda.r-forge.r-project.org/) for more details.
 
 ### Installing RQDA (Windows) 
