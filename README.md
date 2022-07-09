@@ -27,9 +27,18 @@ Please click [RQDA official website](https://rqda.r-forge.r-project.org/) for mo
 ### Installing RQDA (Windows) 
 1. Check R version: **R version 3.6.3 (2020-02-29)**; RStudio version doesn't matter; You can change the R version from "Tools/Global Options" in RStudio setting if you have more than two R version in one computer. 
 2. Install [**Rtools35**](https://cran.r-project.org/bin/windows/Rtools/history.html) and don't install the newest **Rtools40**.
-	After installing Rtools35, run the command below: `writeLines('PATH="${RTOOLS35_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron`
+	After installing Rtools35, run the command below: `writeLines('PATH="${RTOOLS35_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron)`
 3. Go to SourceForge.net to download **GTK+**, use the [link](https://sourceforge.net/projects/gladewin32/files/gtk%2B-win32-runtime/2.10.11/gtk-2.10.11-win32-1.exe/download?use_mirror=versaweb&modtime=1175123376&big_mirror=0) or download from the uploaded files above.
 4. The following 3 packages can be downloaded from CRAN directly: `install.packages(c("RGtk2", “cairoDevice", “DBI”))`.
+  - Update on July 2022: if you see an error msg saying "‘RGtk2’ is not available (for R version 3.6.3)", the reason is that it and cairoDevice have been archived on CRAN but can be installed from a copy on Togaware.  
+  - On Windows
+    - `install.packages("https://access.togaware.com/RGtk2_2.20.36.2.zip", repos=NULL)`
+    - `install.packages("https://access.togaware.com/cairoDevice_2.28.zip", repos=NULL)`
+  - On Mac
+    - `install.packages("https://access.togaware.com/RGtk2_2.20.36.2.tgz", repos=NULL)`
+    - `install.packages("https://access.togaware.com/cairoDevice_2.28.tgz", repos=NULL)`
+  - Update on Jul 2022: I also upload the compressed packages to the folder [Packages](https://github.com/YuxiaoLuo/RQDA-Workshop/tree/main/Packages), so you can download it from there and manually move them to the personal R library as specified in step 5 below.
+  
 5. The following 4 packages were delisted from CRAN, please download from the uploaded files above and copy-paste the 4 folders to your personal R library (use command `.libPaths()` in Rstudio console to see the library location, ex., `C:\Users\Henry\Documents\R\win-library\3.6`). The four packages are: a.`gWidgets`; b.`gWidgetsRGtk2`; c.`RQDA`; d.`RSQLite`.
 
 ### Installing RQDA (Mac)
